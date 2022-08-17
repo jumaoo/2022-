@@ -1,0 +1,28 @@
+/*文本样式*/
+text{
+  font-size: 80rpx;
+  color:cornflowerblue;
+}
+/*图标样式*/
+image{
+  width: 220rpx;
+}
+
+/*区域4整体样式*/
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(93, 137, 218);
+}
+/*区域4单元行格式*/
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+/*区域4单元格格式*/
+.box{
+  width: 33.3%;
+  text-align:center;
+}
